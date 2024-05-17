@@ -66,6 +66,15 @@
   }
 }
 
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url(./assets/Fonts/Variable/CabinetGrotesk-Variable.ttf);
+}
+
+body {
+  font-family: "CabinetGrotesk", sans-serif;
+}
+
 @layer base {
   * {
     @apply border-border;

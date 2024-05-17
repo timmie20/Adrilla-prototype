@@ -1,6 +1,5 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import AppLayout from "./layout/AppLayout";
 import HomePage from "./pages/HomePage";
 
 const App = () => {
@@ -8,8 +7,7 @@ const App = () => {
     <>
       <Routes>
         <Route>
-          <Route path="/" element={<AppLayout />} />
-          <Route index element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
         </Route>
       </Routes>
     </>
